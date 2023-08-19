@@ -1,0 +1,41 @@
+2. Compilar la clase "Circulo.java". ¿Puedes ejecutar la clase “Circulo”? ¿Por qué?
+	si puedo ejecutar la clase, porque la clase y los atributos son inicializados correctamente en cualquier caso y da resultados 	correctos.
+
+3. ¿Qué pasos en común realizaste para ejecutar cada uno de los ejercicios?
+	Solo la instanciacion de la clase circulo.
+
+4.
+   a. ¿Qué es el constructor y para qué sirve?
+	Un constructor es un metodo que se ejectuta al instanciar un objeto que sirve para inicializar los atributos y propiedades de la clase.
+
+   b. ¿Con qué método recupero el radio del circulo?
+	Lo recupero con el metodo getRadio.
+
+   c. ¿Por qué los atributos son privados y los métodos son públicos?
+	Para que estos no se puedan modificarlo directamente.
+
+   d. ¿Qué pasa si accedes directamente a los atributos del círculo?
+	No estaria haciendo buenas practicas, rompiendo el encapsulamiento.
+
+   e. ¿Qué pasa si modificas directamente el atributo area del círculo?
+	El area no es un atributo inicial, solo existiendo en el metodo.
+
+   f. En la clase “CirculoTest.java”, ejecuta la siguiente instrucción: System.out.println(c1.radius), donde c1 es una instancia del objeto Circulo. ¿Qué ocurió?. Explique el mensaje de error.
+	Salto mensaje de error. Esto ocurrio porque el atributo radio es privado y solo se puede acceder a traves del metodo getRadio.
+
+   g. En la clase “CirculoTest.java”, ejecuta la siguiente instrucción: c1.radius=12.0, donde c1 es una instancia del objeto Circulo. ¿Qué ocurió?. Explique el mensaje de error.
+	Salto mensaje de error. Esto ocurrio porque el atributo radio es privado y se tendria que agregar un metodo setRadio para que sea posible.
+
+   h. ¿Con qué método modificas el valor de un atributo de la clase “Circulo.java”?
+	Con el metodo set.
+
+   i. Crear un objeto de tipo Circulo y modifica los valores por defecto. Utiliza el constructor por defecto.
+	
+   j. ¿Para qué sirve la palabra reservada “this”?. Modifique todos los constructores y métodos setters en la clase “Circulo.java”.
+	Para referirte a la clase en la que trabajas.
+
+   k. ¿Para qué sirve el método toString()?
+	Sirve para convertir numericos a String completamente.
+
+   l. Incluir el método toString() en la clase “Circulo.java”.
+	
